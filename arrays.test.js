@@ -58,7 +58,7 @@ describe('prueba funcion shift', () => {
         test('Longuitud de length 2, 3', () => {
             let arr = [1, 2, 3];
             arrayshift(arr);
-            expect(arr).tobe(2, 3);
+            expect(arr).toBe (2, 3);
         });
     });
 });
