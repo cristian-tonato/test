@@ -26,9 +26,6 @@ describe('Prueba funcion push', () => {
     
 });
 
-
-import { arraypop } from "./arrays";
-
 describe('Prueba funcion pop', () => {
     const arr = [2, 3, 4, 5];
     let result;
@@ -45,7 +42,6 @@ describe('Prueba funcion pop', () => {
     })
 });
 
-import {arrayshift} from "./arrays";
 
 describe('prueba funcion shift', () => {
     describe('Cuando recibimos [1, 2, 3]', () => {
