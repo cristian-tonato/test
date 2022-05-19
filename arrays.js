@@ -14,7 +14,7 @@ export function arraypop(arr){
         }
         arr.length = arr.length -1;
         return pop
-};
+}
 
 export function arrayshift(arr) {
     let item = arr[0];
